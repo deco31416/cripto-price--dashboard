@@ -1,4 +1,4 @@
-![Cover Image](https://github.com/deco31416/P2P-Crypto-Exchange--dashboard/blob/main/public/cover.png?raw=true)
+![Cover Image](https://github.com/deco31416/cripto-price--dashboard/blob/main/public/cover.svg)
 
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5f44b9ba-f70e-4c4e-8de1-a9c9d9d953e6/deploy-status)](https://app.netlify.com/sites/convertidor-criptomonedas/deploys)
@@ -22,7 +22,7 @@ is a web-based demonstration project developed by **Deco31416** to showcase real
 
 
 ## 🌎 2. Live Demo
-🔗 **[Try the App Here](https:///)** 🚀
+🔗 **[Try the App Here](https://cripto-price-dashboard.vercel.app/)** 🚀
 
 
 ## 💰 3. Supported Currencies

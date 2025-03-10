@@ -1,0 +1,89 @@
+/* Importar Poppins desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Configuración base */
+.footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 80px; /* Agrega espacio entre el body y el footer */
+}
+
+/* Franja superior - Descargos legales */
+.footer-legal {
+  background-color: #1a1a1a;  /* Gris oscuro */
+  padding: 30px 50px;
+  max-width: 1200px;
+  margin: 1rem;
+  text-align: left;
+  border-radius: 8px; /* Bordes suaves */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+  border-radius: 1.05rem;
+}
+
+.footer-legal p {
+  margin: 15px 0;
+  font-size: 14px;
+  color: #bbb;
+  line-height: 1.6;
+}
+
+.footer-legal strong {
+  color: white;
+  font-weight: 600;
+}
+
+/* Franja inferior - Enlaces legales */
+.footer-bottom {
+  background-color: #000; /* Negro */
+  padding: 20px;
+  text-align: center;
+  /* width: 100%; */
+  margin-top: 25px;
+  margin: 1rem;
+  /* border-top: 3px solid #222; Línea separadora */
+  border-radius: 1.05rem;
+}
+
+.footer-bottom p {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.footer-bottom a {
+  color: #ccc;
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 400;
+  transition: color 0.3s;
+}
+
+.footer-bottom a:hover {
+  color: white;
+}
+
+/* Asegurar que el footer se mantenga separado del body */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  flex: 1; /* Asegura que el contenido principal ocupe el espacio disponible */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-legal {
+    padding: 20px;
+    text-align: left;
+  }
+
+  .footer-bottom a {
+    display: block;
+    margin: 5px 0;
+  }
+}
